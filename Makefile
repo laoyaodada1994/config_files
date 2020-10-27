@@ -1,5 +1,5 @@
 KERN_DIR = /home/code/rk3399_kernel
-CROSS_COMPILE=aarch64-linux-gnu-
+CROSS_COMPILE = aarch64-linux-gnu-
 MODULE_NAME = led_basic
 $(MODULE_NAME)-y := leddrv.o board_rk3399.o
 obj-m += $(MODULE_NAME).o
